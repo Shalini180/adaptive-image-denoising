@@ -1,0 +1,48 @@
+# Ignore Python virtual environments
+venv/
+venv311/
+.env/
+
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+
+# OS-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# VS Code and other editor settings
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Package distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Test coverage reports
+htmlcov/
+.coverage
+.cache/
+
+# User-specific config
+*.env
+
+# Exclude the documentation output if generated
+docs/_build/
+
+# Ignore any pip-generated requirements lock file
+requirements.lock
+
