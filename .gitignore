@@ -46,3 +46,13 @@ docs/_build/
 # Ignore any pip-generated requirements lock file
 requirements.lock
 
+# Ignore JSON files
+*.json
+
+# Ignore CSV files
+*.csv
+
+# Ignore PNG files
+*.png
+
+
